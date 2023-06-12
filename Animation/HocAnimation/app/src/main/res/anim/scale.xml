@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--    tỉ lệ theo màn hình không phải tỉ lệ theo ảnh    -->
+    <scale
+        android:fromXScale="0.5"
+        android:toXScale="3.5"
+        android:fromYScale="0.5"
+        android:toYScale="3.5"
+        android:duration="5000"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        />
+
+    <scale
+        android:startOffset="5000"
+        android:fromXScale="3.5"
+        android:toXScale="1"
+        android:fromYScale="3.5"
+        android:toYScale="1"
+        android:duration="5000"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        />
+
+</set>

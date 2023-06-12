@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="12dp"
+    tools:context=".demo1.Demo11Activity">
+    
+    <EditText
+        android:id="@+id/ed_demo11Txt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã sv"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/ed_demo11Txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên sv"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:id="@+id/ed_demo11Txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập chuỗi ký tự"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_start_demo11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_stop_demo11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>

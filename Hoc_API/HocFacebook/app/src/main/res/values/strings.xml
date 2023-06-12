@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HocGoogleMapAndFacebook</string>
+    <string name="facebook_app_id">1065047890875482</string>
+    <string name="facebook_client_token">f7c51c13f825b91762bc34e17af4fb48</string>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapplication">
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".demo8.Demo82Main2Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".demo8.Demo81Main2Activity">
+
+        </activity>
+        <activity
+            android:name=".demo6n.Demo6nMain2Activity"
+            android:configChanges="orientation|screenLayout|keyboard|keyboardHidden"
+            android:label="facebook"></activity>
+        <activity android:name=".demo7n.Demo75nMain2Activity" />
+        <activity android:name=".demo7n.Demo71nMain2Activity" />
+        <activity android:name=".demo7.Demo75Main2Activity" />
+        <activity android:name=".demo7.Demo71Main2Activity" />
+        <activity android:name=".demo5m.Demo5mDetailMain2Activity" />
+        <activity android:name=".demo5m.Demo5mMain2Activity" />
+        <activity
+            android:name=".demo6n1.Demo6n1Main2Activity"
+            android:configChanges="keyboardHidden|keyboard|screenLayout|orientation"
+            android:label="Facebook" />
+        <activity
+            android:name=".demo6.Demo63Main2Activity"
+            android:configChanges="orientation|screenLayout|keyboard|keyboardHidden"
+            android:label="facebook" />
+        <activity
+            android:name=".demo6.Demo62Main2Activity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout"
+            android:label="facebook" />
+        <activity
+            android:name=".demo6.Demo61Main2Activity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+            android:label="facebook" />
+        <activity android:name=".demo55.Demo55DetailMain2Activity" />
+        <activity android:name=".demo55.Demo55Main2Activity" />
+        <activity android:name=".demo5nn.Demo5nn1DetailMain2Activity" />
+        <activity android:name=".demo5nn.Demo5mn1Main2Activity" />
+        <activity android:name=".demo5n.Demo5n1DetailMain2Activity" />
+        <activity android:name=".demo5n.Demo5n1Main2Activity" />
+        <activity android:name=".demo5.Demo51DetailMain2Activity" />
+        <activity android:name=".demo5.Demo51Main2Activity" />
+        <activity android:name=".demo4nnn.Demo4nnn2Main2Activity" />
+        <activity android:name=".demo4nnn.Demo4nnn1Main2Activity" />
+        <activity android:name=".demo4nn.Demo4nn2Main2Activity" />
+        <activity android:name=".demo4nn.Demo4nn1Main2Activity" />
+        <activity android:name=".demo4n.Demo4n3Main2Activity" />
+        <activity android:name=".demo4n.Demo4n2Main2Activity" />
+        <activity android:name=".demo4n.Demo4n1Main2Activity" />
+        <activity android:name=".demo4.Demo43Main2Activity" />
+        <activity android:name=".demo4.Demo42Main2Activity" />
+        <activity android:name=".demo4.Demo41Main2Activity" />
+        <activity android:name=".demo3n.Demo3n3Main2Activity" />
+        <activity android:name=".demo3.Demo311Main2Activity" />
+        <activity android:name=".demo3n.Demo32nMain2Activity" />
+        <activity android:name=".demo3n.Demo31nMain2Activity" />
+        <activity android:name=".demo3.Demo32Main2Activity" />
+        <activity android:name=".demo3.Demo31Main3Activity" />
+        <activity android:name=".demo2.Demo22Main2Activity" />
+        <activity android:name=".demo2.Demo21Main2Activity" />
+        <activity android:name=".demo2n.Demo2n3Main2Activity" />
+        <activity android:name=".demo2n.Demo2n2Main2Activity" />
+        <activity android:name=".demo2n.Demo2n1Main2Activity" />
+        <activity android:name=".demo1n.Demo1nMain2Activity" />
+        <activity android:name=".demo1.Demo11Main2Activity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity android:name=".MainActivity" />
+
+        <service android:name=".demo1.MyService1" />
+        <service android:name=".demo1.MyService2" />
+        <service android:name=".demo1.MyService3" />
+        <service android:name=".demo1n.MyServices1" />
+        <service android:name=".demo1n.MyServices2" />
+        <service android:name=".demo1n.MyServices3" />
+
+        <receiver android:name=".demo2n.MyBr1" />
+        <receiver android:name=".demo2n.MyBr2" />
+        <receiver android:name=".demo2n.MyBr3" />
+        <receiver android:name=".demo2.MyBroadcast1" />
+        <receiver android:name=".demo2.MyBroadcast2" />
+        <receiver android:name=".demo2.MyBroadcast3" />
+    </application>
+
+</manifest>

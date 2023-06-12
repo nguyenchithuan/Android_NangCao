@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android nâng cao - PH26023"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:textColor="#FF5722"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/ed_tenLoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Tên loại" />
+
+        <EditText
+            android:id="@+id/ed_tenSp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Tên sản phẩm" />
+        <EditText
+            android:id="@+id/ed_slNhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Số lượng nhập" />
+        <EditText
+            android:id="@+id/ed_slXuat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Số lượng xuất" />
+        <EditText
+            android:id="@+id/ed_giaNhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Đơn giá nhập" />
+        <EditText
+            android:id="@+id/ed_giaXuat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Đơn giá xuất" />
+        <EditText
+            android:id="@+id/ed_ngayNhap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Ngày nhập" />
+        <EditText
+            android:id="@+id/ed_ngayXuat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Ngày xuất" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FF5722"
+            android:text="Tạo 4 bảng Thể Loại,Sản Phẩm, Hóa Đơn, Hóa Đơn chi tiết vào SQLite" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FF5722"
+            android:text="Nhập dữ liệu vào các EditText và lưu vào các bảng dữ liệu tương ứng, mỗi bảng ít nhất 2 bản ghi" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FF5722"
+            android:text="Hiển thị dữ liệu bảng sản phẩm lên RecyclerView hoặc Lisview" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#FF5722"
+            android:text="Tính tổng số bản ghi có trong Listview" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
